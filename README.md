@@ -8,12 +8,12 @@ This project was part of the "Ideology and Power Identification in Parliamentary
 * Abhyuday Singh
 
 ## Files
-1. clef-byteocrats.ipynb: This Jupyter Notebook file is responsible for loading the dataset, applying preprocessing techniques (such as stopword removal, punctuation removal, tokenization, and lemmatization), and running various machine learning models with evaluation metrics.
+1. clef_byteocrats.ipynb: This Jupyter Notebook file is responsible for loading the dataset, applying preprocessing techniques (such as stopword removal, punctuation removal, tokenization, and lemmatization), and running various machine learning models with evaluation metrics.
 2. mistral_llm.py: This Python script utilizes a large language model (LLM) - Mistral 8x7b to classify the parliamentary speeches. It makes API calls to the LLM, processes the input data, and writes the output predictions to a text file
 
 ## How to Run
 ### 1. Data Preprocessing and Machine Learning Models:
-* Open the clef-byteocrats.ipynb file in a Jupyter Notebook environment.
+* Open the clef_byteocrats.ipynb file in a Jupyter Notebook environment.
 * Run the cells to load the dataset, preprocess the data, and train/evaluate the machine learning models.
 * The notebook will output the performance metrics for the various models.
   
